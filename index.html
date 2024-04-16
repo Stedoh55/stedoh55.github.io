@@ -1,106 +1,131 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Hackathon Challenge 1</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<h1>First Hackathon Challenge</h1>
-<p id="FirstWords">This is first Hackathon challenge at the PLP where the contents to be implemented includes the use of HTML tags, creating links, images and creating the forms. Feel free to navigate through this page and reveal most features that have been employed.
-</p> <!-- End of the first introductory message -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta property = "og:image" content="images/stedoh.png">
+    <link rel="icon" type="image/png" href="images/stedoh1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+    />
+    <title>Steven's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="flex items-centre justify-between">
+          <div class="left flex justfiy-right">
+            <div class="logo">
+              <img src="images/stedoh1.png" width="50px" alt="logo" />
+            </div>
+            <div>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Blog</a>
+              <!-- <a href="#">More</a> -->
+            </div>
+          </div>
+          <div class="right">
+            <button class="btn btn-primary">Contact</button>
+          </div>
+        </nav>
+      </div>
+    </header >
+    <div class="hero flex items-centre justify-between">
+      <div class="left flex-1 justify-center">
+        <img src="images/stedoh2.png" height="400px" width="400px" alt="Profile" />
+      </div>
+      <div class="right flex-1 intro">
+        <h6>Steven Simoni</h6>
+        <h1>
+          I'm a Web<br />
+          <span>Developer</span>
+        </h1>
+        <p >
+            I specialize in front-end and back-end technologies like HTML, CSS, JavaScript, Node.js, and PHP. With a keen eye for design and a passion for problem-solving, I craft engaging digital experiences that delight users.
+        </p>
+        <div>
+          <button class="btn btn-secondary">DOWNLOAD CV</button>
+        </div>
+      </div>
+    </div>
+    <section class="about">
+      <div class="container flex items-centre">
+        <div class="left flex-1 justify-right">
+          <img src="images/stedoh.png" height="400px" alt="profile pic" />
+        </div>
+        <div class="right flex-1">
+          <h1>About <span>Me</span></h1>
+          <h3>Hello! I'm Steven Simoni</h3>
+          <p>
+            A passionate web developer dedicated to crafting beautiful and functional websites. With expertise in front-end and back-end technologies, I specialize in turning ideas into digital experiences that captivate and engage users. Let's create something amazing together!
+          </p>
+          <div class="socials">
+            <a href="#!"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="#!"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#!"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <h1 class="services-head">Services</h1>
+        <p>All your digital needs...covered.</p>
+        <div class="card-grid">
+          <div class="card">
+            <img src="images/graphics.webp" alt="graphic design" />
+            <h2>Graphic design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing el it.
+              debitis?
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/web.jpg" alt="web development" />
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing el it.
+              debitis?
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/app.png" alt="content writing" />
+            <h2>App Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing el it.
+              debitis?
+            </p>
+          </div>
 
-<p>
-  <a href="https://powerlearnproject.org/" title="Visit PLP Website" target="_blank">Visit PLP Website it is Awesome</a>
-</p> <!-- End of the link part to PLP Website -->
+          <div class="card">
+            <img src="images/hand.png" alt="content writing" />
+            <h2>IT Consulting</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing el it.
+              debitis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="image">
-  <img  id="hackathon"  src="image/hackathon.jpg" alt="PLP Hackathon" width="500px" height="500px">
-</section> <!-- End of the image section -->
+    <div class="footer">
+        <footer>
+            <p>&copy; 2024 Steven Simoni. All rights reserved.</p>
+        </footer>
+    </div>
 
-<section id="registration">
-  <h3> Registration Form</h3>
-
-  <label for="name">Name:</label>
-  <input type="text" name="name" id="name" placeholder="Full Name" required=""><br><br>
-
-  <label for="email">Email Address:</label>
-  <input type="email" name="email" id="email" placeholder="Email Address" required=""><br><br>
-
-  <label for="phone_number">Telephone:</label>
-  <input type="tel" name="phone_number" id="phone_number" placeholder="Phone number" required=""><br><br>
-
-
-  <label for="number">Age:</label>
-  <input type="number" name="number" id="Age" placeholder="Age in years" min="0" required=""><br><br>
-
-  <label>Gender:</label><br>
-  <input type="radio" name="Gender" id="Male" value="Male" required="">
-  <label for="Male" class="gender">Male</label>  <br>
-
-  <input type="radio" name="Gender" id="Female" value="Female" required="">
-  <label for="Female" class="gender">Female</label><br><br>
-
-  <label>Subjects:</label><br>
-  <input type="checkbox" name="english" id="english" value="English">
-  <label for="english" class="subjects">English</label><br>
-
-  <input type="checkbox" name="math" id="math" value="Math">
-  <label for="math" class="subjects">Math</label><br>
-
-  <input type="checkbox" name="science" id="science" value="Science">
-  <label for="science" class="subjects">Science</label><br>
-
-  <input type="checkbox" name="art" id="art" value="Art and Craft">
-  <label for="art" class="subjects">Art and Craft</label><br>
-
-   <input type="checkbox" name="agriculture" id="agriculture" value="Agriculture">
-  <label for="agriculture" class="subjects">Agriculture</label><br>
-
-   <input type="checkbox" name="geography" id="geography" value="Geography">
-  <label for="geography" class="subjects">Geography</label><br>
-
-   <input type="checkbox" name="history" id="history" value="History">
-  <label for="history" class="subjects">History</label><br><br>
-
-  <label for="password">Password:</label>
-  <input type="password" name="password" id="password" placeholder="Your Password" required=""><br><br>
-
-  <label for="name">SessionId:</label>
-  <input type="name" name="name" id="sessionID" placeholder="SessionId" readonly=""><br><br>
-</section>   <!--  End of Registration Form Section -->
-
-<input type="submit" id="Submit" value="Submit"><br><br>
-<input type="reset" id="Cancel" value="Clear">
-
-</body>
+  </body>
 </html>
-
-
-
-
-
-
-<!-- 1. create the basic html structure. your structure should include a blue heading and a red paragragh with font size 15px -->
-
-
-<!-- 2. in your html file, add a link that opens a new tab to an external resource  -->
-
-
-<!-- 3. create a section and add an image, using css; place a green border on the image, the image should be 500px wide and 500px high -->
-
-
-<!-- 4. create another section add a form that takes in the following input:
-  a. name
-  b. email address
-  c. phone number
-  d. age
-  e. radio checkbox for gender (use fieldset to group the gender input)
-  f. dropdown for multi-selection of subjects: English, Math, Science, Art and Craft, Agriculture, Geography and History
-  g. password
-  h. a hidden field to capture sessionId
-  i. cancel button that clears form inputs
-  j. submit button with text register
-  make sure to incorporate relevant labels in your form elements using the necessary and relevant input types and element attributes
--->
-
-<!-- 5. all styling should be placed in the style.css, make sure to correctly embed the external css file on the index.html file using the relevant tag  -->
