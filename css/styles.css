@@ -1,70 +1,41 @@
 body{
   background-color: #f3bc92;
-}
-
-.sidebar{
-  height: 120000px;
-  width: 20%;
-  min-width: 150px;
-  max-width: 300px;
-  position: fixed;
-  z-index: 1;
-  top: 50px;
-  left: 0;
-  background-color: #111;
-  padding:0px 0px 20px 0px;
-  box-sizing: border-box;
-  margin-right: 10px;
  
+  
 }
 
-.sidebar a{
-  padding: 10px ;
-  text-decoration: none;
-  font-size: 1.8vw;
-  color: #818181;
-  display: block;
-  transition: left 0.3s ease;
-}
-
-.sidebar a:hover{
-  color: #f1f1f1;
-  background-color: blue;
-  font-stretch: expanded;
-  font-weight: bold;
-  font-size: 2vw;
-
-}
-
-.content{
-  margin-left: 150px;
-  padding: 200vw;
-  transition: margin-left 0.3s ease;
-}
-
+/*These are for the Top Navbar of the Page*/
 .navbar{
   background-color: #f1f1f1;
-  height: 20px;
+  height: 30px;
+  margin-bottom: 150px;
+  position: relative;
+  border-radius: 0 1em 0 1em;
 }
 
-.image{
-  float: left;
-  width: 30vw;
-  border-radius: 1em 0em 3em 0em;
-  padding-right: 1em;
-  box-shadow: 20px black;
-
-}
 
 .navbar-default{
+  top: 0;
+  z-index: 1000;
   background-color: #22b5f6;
   position: fixed;
   width: 100vw;
-  min-height: 50px;
-  margin-bottom: 20px;
+  height: 50px;
+  margin-bottom: 200px;
 
 }
+/*End of the Navbar*/
 
+.placeholder{
+  height: 60px; /*This Adds some offset to the main page so taht the contents arent Choped off*/
+}
+
+.placeholder2{
+  height: 200px;
+  width: 100%
+}
+
+/*Jumbotron*/
 .description{
   box-sizing: border-box;
   border-radius: 1em 0em 3em 0em;
@@ -73,23 +44,27 @@ body{
   text-align: justify-all;
   background-color: white;
   font-size-adjust: inherit;
-   font-size: 1.5em;
-  
+  font-size: 1.5em;
+  float: left;
 
+  
 }
 
 .details{
   font-size: 40vw;
   padding: 1em;
   padding-top: 0em;
-
-font-size: 0.7em;
+  font-size: 1.7em;
 }
 
-.jumbotron{
-  background-color: #22bbe4;
- }
-
+.image{
+  float: left;
+  width: 33vw;
+  border-radius: 1em 0 0 0em;
+  padding-right: 1em;
+  box-shadow: 20px black;
+  height: 100%;
+}
 
 .items{
   background-color: #fe801f;
@@ -127,21 +102,32 @@ a, img{
   text-decoration: none;
   outline-style: unset;
   color: inherit;
-  un
+
+/*These are for the Side Navigation Bar*/
 }
 #demo{
-  background-color: #ac801fff;
-  max-width: 25vw;
-  width: 300px;
+  background-color:#eb9e4c;
+  width: 180px;
+  border-radius: 0 1em 1em 0;
+
 }
 
 .offcanvas-header{
   background-color: blue;
   margin-bottom: 10px;
+  height: 100px;
+  border-radius: 0 1em 0 0;
 }
 
-#pages{
-  text-decoration-line: none;
+.side-image{
+  border-radius: 50px;
+  
+}
+
+.side-name{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
 
 }
 
@@ -149,18 +135,33 @@ a, img{
   margin-top: 0px;
   padding: 2px;
   margin: 2px;
-  color: black;
+  color: white;
   padding-top: 0px;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  font-weight: 20px;
+
+}
+
+#pages{
+  text-decoration-line: none;
+  padding: 5px;
+
 
 }
 
 #pages p:hover{
-  background-color: white;
-  font-size: 1.7em;
+  background-color: #22b5f6;
   font-weight: bold;
+  
 }
 
+#pages a:hover{
+  text-decoration: none;
+}
+/*End of the side Navigation*/
+
+
+/*These are for the footer of the page*/
 .contacts{
   background-color: #fe801f50;
   height: 150px;
@@ -178,17 +179,47 @@ a, img{
   border: 5px blue;
   transform: rotate(-2deg);
   transform: translateY(-2px);
-  text-decoration-line: none;
+ 
 }
+
+.socials a{
+   text-decoration: none;
+}
+
 
 .copyright{
   text-align: center;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top: 10px;
 }
 
 .back_to_top{
   text-align: right;
+  color: blue;
 }
 
+
+.jumbotron{
+  background-color: red;
+  padding-top: 20px;
+}
+
+@media (max-width:600px ){
+  .details{
+  font-size: 10em;
+  padding: 1em;
+  padding-top: 0em;
+  font-size: 1em;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .details{
+  font-size: 10em;
+  padding: 1em;
+  padding-top: 0em;
+  font-size: 1.1em;
+  }
+}
