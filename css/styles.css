@@ -51,10 +51,9 @@ body{
 }
 
 .details{
-  font-size: 40vw;
   padding: 1em;
   padding-top: 0em;
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 
 .image{
@@ -251,6 +250,26 @@ a, img{
   width: 20px;
   height: 20px;
 }
+
+.navbar-default{
+  width: 100vw;
+  height: 60px;
+}
+
+.placeholder{
+  height: 70px; /*This Adds some offset to the main page so taht the contents arent Choped off*/
+  border-radius: 5em;
+}
+
+#sidebar_button{
+  position: fixed;
+  left: 10px;
+  top: 6px;
+  padding: 3px;
+}
+  
+
+
 
 }
 
