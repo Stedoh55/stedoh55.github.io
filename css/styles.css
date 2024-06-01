@@ -40,12 +40,13 @@ body{
   box-sizing: border-box;
   border-radius: 1em 0em 3em 0em;
   border: 2px solid black;
-  width: 95%;
+  width: 100%;
   text-align: justify-all;
   background-color: white;
   font-size-adjust: inherit;
   font-size: 1.5em;
   float: left;
+  margin-left: auto;
 
   
 }
@@ -54,6 +55,8 @@ body{
   padding: 1em;
   padding-top: 0em;
   font-size: 1.5em;
+ 
+ margin: 0;
 }
 
 .image{
@@ -63,6 +66,7 @@ body{
   padding-right: 1em;
   box-shadow: 20px black;
   height: 100%;
+  margin: 0;
 }
 
 .items{
@@ -226,7 +230,7 @@ a, img{
 
 
 /*Small screen devices such as Mobile Phones*/
-@media (max-width:768px ){
+@media (max-width:767px ){
   .details{
   font-size: 10em;
   padding: 1em;
@@ -293,7 +297,7 @@ a, img{
 }
 
 /*Medium Screen Devices such as Tablets*/
-@media (min-width: @screen-sm-min){
+@media (min-width: 768px) and (max-width: 1199px){
   .details{
   font-size: 10em;
   padding: 1em;
@@ -301,6 +305,61 @@ a, img{
   font-size: 1.1em;
   }
 
+  .icon{
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-default{
+  width: 100vw;
+  height: 60px;
+}
+
+.placeholder{
+  height: 70px; /*This Adds some offset to the main page so taht the contents arent Choped off*/
+  border-radius: 5em;
+}
+
+#sidebar_button{
+  position: fixed;
+  left: 10px;
+  top: 6px;
+  padding: 3px;
+}
+   .offcanvas-header{
+  height: 100px
+  }
+
+  .side-image{
+    width: 60px;
+  }
+
+  .side-name{
+    font-size: 1.5em;
+
+  }
+  .page-item{
+    font-size: 1.7em;
+  }
+
+  .offcanvas-header{
+  margin-bottom: 10px;
+  }
+ .socials-cycle{
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffffa1;
+  border-radius: 200px;
+  margin: 2px;
+  float: left;
+  align-items: center;
+
+}
+
+.details{
+  font-size: 1.9em;
+}
  
 
 }
