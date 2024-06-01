@@ -9,7 +9,7 @@ body{
   height: 30px;
   margin-bottom: 150px;
   position: relative;
-  border-radius: 0 1em 0 1em;
+  border-radius: 0 0 1em 1em;
 }
 
 
@@ -106,7 +106,7 @@ a, img{
 }
 #demo{
   background-image: radial-gradient(circle,#ff7e5f, #ecd349);
-  width: 180px;
+  width: 220px;
   border-radius: 0 1em 1em 0;
 
 }
@@ -114,7 +114,7 @@ a, img{
 .offcanvas-header{
   background-color: #22b5f6;
   margin-bottom: 10px;
-  height: 100px;
+  height: 130px;
   border-radius: 0 1em 0 0;
 }
 
@@ -126,7 +126,7 @@ a, img{
 .side-name{
   color: white;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.8em;
 
 }
 
@@ -136,8 +136,8 @@ a, img{
   margin: 2px;
   color: white;
   padding-top: 0px;
-  font-size: 1.5em;
-  font-weight: 20px;
+  font-size: 1.9em;
+ 
 
 }
 
@@ -267,6 +267,25 @@ a, img{
   top: 6px;
   padding: 3px;
 }
+   .offcanvas-header{
+  height: 100px
+  }
+
+  .side-image{
+    width: 60px;
+  }
+
+  .side-name{
+    font-size: 1.5em;
+
+  }
+  .page-item{
+    font-size: 1.7em;
+  }
+
+  .offcanvas-header{
+  margin-bottom: 10px;
+  }
   
 
 
@@ -275,10 +294,13 @@ a, img{
 
 /*Medium Screen Devices such as Tablets*/
 @media (min-width: @screen-sm-min){
-    .details{
+  .details{
   font-size: 10em;
   padding: 1em;
   padding-top: 0em;
   font-size: 1.1em;
   }
+
+ 
+
 }
