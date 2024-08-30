@@ -263,10 +263,50 @@ a, img{
 /*Small screen devices such as Mobile Phones*/
 @media (max-width:767px ){
   .details{
-  font-size: 10em;
-  padding: 1em;
+  font-size: 18px;
+  padding: 8px;
   padding-top: 0em;
-  font-size: 1em;
+  
+  }
+  .About{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .proficiencies{
+    font-size: 16px;
+  }
+
+  Title{
+    font-size: 20px;
+  }
+
+  img{
+    padding-left: 0;
+  }
+
+  .HireMe{
+    font-size: 18px;
+  }
+
+  .image{
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    align-content: center;
+    margin: 0;
+    height: auto;
+    max-width: fit-content;
+    
+  }
+
+  .description{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    overflow: hidden;
   }
 
   .socials-cycle{
@@ -320,6 +360,10 @@ a, img{
 
   .offcanvas-header{
   margin-bottom: 10px;
+  }
+
+  .steven{
+    font-size: 28px;
   }
   
 
