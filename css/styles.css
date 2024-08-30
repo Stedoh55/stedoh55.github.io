@@ -1,0 +1,365 @@
+body{
+  background-image: linear-gradient(to right,#ff7e5f, #feb47b 50%, yellow);
+  border-radius: 5em;
+}
+
+/*These are for the Top Navbar of the Page*/
+.navbar{
+  background-color: cyan;
+  height: 30px;
+  margin-bottom: 150px;
+  position: relative;
+  border-radius: 0 0 1em 1em;
+}
+
+
+.navbar-default{
+  top: 0;
+  z-index: 1000;
+  background-color: #22b5f6;
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  margin-bottom: 200px;
+
+}
+/*End of the Navbar*/
+
+.placeholder{
+  height: 60px; /*This Adds some offset to the main page so taht the contents arent Choped off*/
+  border-radius: 5em;
+}
+
+.placeholder2{
+  height: 200px;
+  width: 100%
+}
+
+/*Jumbotron*/
+.description{
+  box-sizing: border-box;
+  border-radius: 1em 0em 3em 0em;
+  border: 2px solid black;
+  width: 100%;
+  text-align: justify-all;
+  background-color: white;
+  font-size-adjust: inherit;
+  font-size: 1.5em;
+  float: left;
+  margin-left: auto;
+
+  
+}
+
+.details{
+  padding: 1em;
+  padding-top: 0em;
+  font-size: 1.5em;
+ 
+ margin: 0;
+}
+
+.image{
+  float: left;
+  width: 33vw;
+  border-radius: 1em 0 0 0em;
+  padding-right: 1em;
+  box-shadow: 20px black;
+  height: 100%;
+  margin: 0;
+}
+
+.items{
+  background-color: #fe801f;
+  height: 20vw;
+  width: 100vw;
+  max-height: 80px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: 1000px;
+
+}
+
+.steven{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+#sidebar_button{
+  position: fixed;
+  left: 5px;
+  top: 2px;
+  padding: 3px;
+
+}
+
+.icon-bar{
+  padding: 1px;
+  margin: 3px;
+}
+
+a, img{
+  text-decoration: none;
+  outline-style: unset;
+  color: inherit;
+
+/*These are for the Side Navigation Bar*/
+}
+#demo{
+  background-image: radial-gradient(circle,#ff7e5f, #ecd349);
+  width: 220px;
+  border-radius: 0 1em 1em 0;
+
+}
+
+.offcanvas-header{
+  background-color: #22b5f6;
+  margin-bottom: 10px;
+  height: 130px;
+  border-radius: 0 1em 0 0;
+}
+
+.side-image{
+  border-radius: 50px;
+  
+}
+
+.side-name{
+  color: white;
+  font-weight: bold;
+  font-size: 1.8em;
+
+}
+
+.page-item{
+  margin-top: 0px;
+  padding: 2px;
+  margin: 2px;
+  color: white;
+  padding-top: 0px;
+  font-size: 1.9em;
+ 
+
+}
+
+.nav-buttons{
+  padding-left: 2px;
+}
+
+#pages{
+  text-decoration-line: none;
+  padding: 5px;
+
+
+}
+
+#pages p:hover{
+  background-color: #22b5f6;
+  font-weight: bold;
+  border-radius: 0.3em;  
+}
+
+#pages a:hover{
+  text-decoration: none;
+}
+/*End of the side Navigation*/
+
+
+/*These are for the footer of the page*/
+.contacts{
+  background-image: radial-gradient(circle,#ff7e5f, yellow);
+  height: 150px;
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.socials{
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  position: sticky;
+
+}
+
+.socials .socials-cycle:hover{
+  transform: rotate(-20deg);
+}
+
+.socials-cycle:hover{
+  transform: rotate(-20deg);
+}
+
+.socials a{
+   text-decoration: none;
+}
+
+.socials-cycle{
+  padding: 6px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffffa1;
+  border-radius: 200px;
+  margin: 3px;
+  float: left;
+  align-items: center;
+
+}
+
+.icon{
+  width: 27px;
+  height: 27px;
+
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+}
+
+
+.copyright{
+  background-image: radial-gradient(circle,#ff7e5f, yellow);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  height: 50px;
+}
+
+
+/*Small screen devices such as Mobile Phones*/
+@media (max-width:767px ){
+  .details{
+  font-size: 10em;
+  padding: 1em;
+  padding-top: 0em;
+  font-size: 1em;
+  }
+
+  .socials-cycle{
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffffa1;
+  border-radius: 200px;
+  margin: 2px;
+  float: left;
+  align-items: center;
+
+}
+
+.icon{
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-default{
+  width: 100vw;
+  height: 60px;
+}
+
+.placeholder{
+  height: 70px; /*This Adds some offset to the main page so taht the contents arent Choped off*/
+  border-radius: 5em;
+}
+
+#sidebar_button{
+  position: fixed;
+  left: 10px;
+  top: 6px;
+  padding: 3px;
+}
+   .offcanvas-header{
+  height: 100px
+  }
+
+  .side-image{
+    width: 60px;
+  }
+
+  .side-name{
+    font-size: 1.5em;
+
+  }
+  .page-item{
+    font-size: 1.7em;
+  }
+
+  .offcanvas-header{
+  margin-bottom: 10px;
+  }
+  
+
+
+
+}
+
+/*Medium Screen Devices such as Tablets*/
+@media (min-width: 768px) and (max-width: 1199px){
+  .details{
+  font-size: 10em;
+  padding: 1em;
+  padding-top: 0em;
+  font-size: 1.1em;
+  }
+
+  .icon{
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-default{
+  width: 100vw;
+  height: 60px;
+}
+
+.placeholder{
+  height: 70px; /*This Adds some offset to the main page so taht the contents arent Choped off*/
+  border-radius: 5em;
+}
+
+#sidebar_button{
+  position: fixed;
+  left: 10px;
+  top: 6px;
+  padding: 3px;
+}
+   .offcanvas-header{
+  height: 100px
+  }
+
+  .side-image{
+    width: 60px;
+  }
+
+  .side-name{
+    font-size: 1.5em;
+
+  }
+  .page-item{
+    font-size: 1.7em;
+  }
+
+  .offcanvas-header{
+  margin-bottom: 10px;
+  }
+ .socials-cycle{
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffffa1;
+  border-radius: 200px;
+  margin: 2px;
+  float: left;
+  align-items: center;
+
+}
+
+.details{
+  font-size: 1.9em;
+}
+ 
+
+}
