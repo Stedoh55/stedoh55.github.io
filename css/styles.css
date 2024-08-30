@@ -35,7 +35,31 @@ body{
   width: 100%
 }
 
-/*Jumbotron*/
+/*Main page Contents*/
+.Title{
+  font-size:40px ;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.About{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.homeWelcome{
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.HireMe{
+  
+  font-size: 30px;
+}
+
 .description{
   box-sizing: border-box;
   border-radius: 1em 0em 3em 0em;
@@ -52,10 +76,10 @@ body{
 }
 
 .details{
-  padding: 1em;
+  padding-left: 1em;
   padding-top: 0em;
-  font-size: 1.5em;
- 
+  font-size: 40px;
+  margin-bottom: 0px;
  margin: 0;
 }
 
@@ -108,6 +132,13 @@ a, img{
 
 /*These are for the Side Navigation Bar*/
 }
+
+.skills{
+  margin-top: 20px;
+  font-size: 25px;
+  padding: 10px;
+}
+
 #demo{
   background-image: radial-gradient(circle,#ff7e5f, #ecd349);
   width: 220px;
@@ -345,6 +376,8 @@ a, img{
   .offcanvas-header{
   margin-bottom: 10px;
   }
+
+  /* The Footer Section */
  .socials-cycle{
   padding: 5px;
   width: 30px;
