@@ -1,2 +1,4 @@
 # stedoh55.github.io
-stedoh_tz
+This is My Portifolio Website.
+## It Hosts the ACtivities and the proficiencies I hold
+All The activities I am doing are Listed here
